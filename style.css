@@ -1,0 +1,76 @@
+body{
+  background-color: orange;
+}
+header{
+  background-image: url(daniele-colucci-8MoRs-DVtas-unsplash.jpg);
+  background-position: center;
+  height: 300px;
+  background-size: cover;
+
+}
+h1{
+  color: white;
+  text-align: center;
+}
+main{
+  width: 90%;
+  text-align: center;
+}
+img{
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+}
+.pic1{
+  width: 200px;
+  height: 250px;
+  transition: width 4s;
+}
+.pic1:Hover{
+  width: 400px;
+}
+.pic2{
+  width: 200px;
+  height: 250px;
+  transition: width 3s;
+}
+.pic2:hover {
+  width: 400px;
+  transform: skew(20deg);
+
+}
+.pic3{
+  width: 200px;
+  height: 250px;
+  transition: width 3s, height 3s;
+}
+.pic3:hover{
+  width: 500px;
+  height: 500px;
+}
+.pic4{
+  width: 200px;
+  height: 250px;
+}
+.pic4:hover{
+  transform: scale(3);
+}
+
+.pic5{
+  width: 200px;
+  height: 250px;
+  transition: width 2s, height 2s, transform 4s;
+}
+.pic5:hover{
+  width: 500px;
+  height: 500px;
+  transform: rotate(30deg);
+}
+footer{
+  height: 20px;
+  background-color: black;
+}
+p{
+  color: white;
+  text-align: center;
+}
